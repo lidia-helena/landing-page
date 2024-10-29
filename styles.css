@@ -131,7 +131,7 @@ justify-content: center;}
     align-items: center;
     background-color: #3882F6;
     padding: 15px 100px;
-    margin: 50px 100px;
+    margin: 100px 100px;
     flex-basis: 1000px;
     flex-shrink: 1;
     border-radius: 10px;
@@ -159,8 +159,14 @@ justify-content: center;}
 .container-four button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border: 0.5px solid #F9FAF8;
+    border: 1px solid #F9FAF8;
     border-radius: 5px;
     padding: 5px 20px;
     min-width: 100px;
 }
+
+.footer {display: flex;
+align-items: center;
+justify-content: center;
+padding: 25px; 
+color: #F9FAF8;}
